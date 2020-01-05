@@ -46,7 +46,7 @@ function creteMealUI(meal) {
         </div>
         
         <div class="instuction">
-            <h2>Instruction:</h2>
+            <h2>${meal.strMeal}</h2>
             <p>${meal.strInstructions}</p>
         </div>
     </div>
